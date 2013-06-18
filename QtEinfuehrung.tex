@@ -8,21 +8,69 @@
    Euro={€}
    }
 
-\usetheme{Warsaw}  %% Themenwahl
+\usetheme{Hannover}  %% Themenwahl
+
+\setbeamercovered{transparent}
+%\setbeamertemplate{footline}[frame number]
  
-\title{Präsentation}
-\author{Max Mustermann}
-\date{\today}
+\title{Qt - Eine Einführung}
+\author{Thomas Helmke}
+\date{25.06.2013}
  
 \begin{document}
 \maketitle
-\frame{\tableofcontents[currentsection]}
+\frame{\tableofcontents}
  
-\section{Abschnitt 1}
+\section{Was ist Qt?}
+\begin{frame}[<+->] %%Eine Folie
+	\frametitle{Was ist Qt?} %%Folientitel
+	\begin{itemize}
+		\item Plattformübergreifendes Framework
+		\item Geschrieben in C++
+		\item Wrapper für Python, Java
+	\end{itemize}
+\end{frame}
+
+\section{Wofür Qt?}
+\begin{frame}[<+->] %%Eine Folie
+	\frametitle{Wofür benutzt man Qt?} %%Folientitel
+	\begin{itemize}
+		\item Graphische Oberflächen
+		\item Plattformübergreifende Programmierung
+		\item ...
+	\end{itemize}
+\end{frame}
 \begin{frame} %%Eine Folie
-	\frametitle{Ein Demotitel} %%Folientitel
-	\begin{Definition} %%Definition
-		Eine Definition
-	\end{Definition}
+	\frametitle{Lizensierung} %%Folientitel
+	\begin{itemize}
+		\item<1-2> GPL 3.0
+			\begin{itemize}
+				\item<2> Open Source
+				\item<2> kostenlos
+				\item<2> Kein Know-How-Protect möglich
+			\end{itemize}
+		\item<3-4> LGPL 2.0
+			\begin{itemize}
+				\item<4> Closed Source mit dynamischer Einbindung der Bibliotheken
+				\item<4> kostenlos
+				\item<4> Know-How-Protect möglich
+			\end{itemize}
+		\item<5-6> Proprietäre Lizenz
+			\begin{itemize}
+				\item<6> Closed Source mit statischer Einbindung der Bibliotheken
+				\item<6> kostenpflichtig
+				\item<6> Know-How-Protect möglich
+			\end{itemize}
+	\end{itemize}
+\end{frame}
+
+\section{Qt Creator}
+\begin{frame}[<+->]
+	\frametitle{Qt Creator}
+	\begin{itemize}
+		\item Qt Entwicklungsumgebung
+		\item WYSIWYG GUI Editor
+		\item Integrierte Hilfe
+	\end{itemize}
 \end{frame}
 \end{document}

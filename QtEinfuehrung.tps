@@ -11,14 +11,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=586
-NormalPos.bottom=689
+NormalPos.right=1162
+NormalPos.bottom=425
 Class=LaTeXView
 Document=QtEinfuehrung.tex
 
 [Frame0_View0,0]
-TopLine=0
-Cursor=38
+TopLine=50
+Cursor=1648
 
 [SessionInfo]
 FrameCount=1
